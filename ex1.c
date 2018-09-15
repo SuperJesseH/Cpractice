@@ -7,7 +7,9 @@ int main(int argc, char *argv[])
   int distance = 100;
 
    //this is also a comment
-   printf("You are %d miles away. \n", distance);
+
+   // %d is for ints and %s is for strings
+   printf("%s%d%s\n", "You are ", distance,  " miles away.");
 
    return 0;
 }
